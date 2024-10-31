@@ -1,0 +1,55 @@
+/* General */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f7a28b;
+    color: white;
+    text-align: center;
+    font-family:"Nunito", sans-serif;
+}
+div {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+h2 {
+    font-family: "Roboto Slab", serif;
+}
+
+/* Overhead */
+#head {
+    background-color: pink;
+}
+#title {
+    font-family: "Playwrite GB S", cursive;
+}
+
+#topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+}
+#topnav li {
+    display: inline;
+    padding: 8px;
+}
+#topnav li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+#topnav li a:hover {
+    background-color: rgb(255, 216, 125);
+    border-radius: 7px;
+}
+
+/* Content */
+#about {
+    background-color: rgb(27, 54, 78);
+}
+
+#projects {
+    background-color:rgb(163, 37, 151);
+}
