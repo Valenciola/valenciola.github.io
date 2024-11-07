@@ -19,7 +19,7 @@ h2 {
     font-family: "Roboto Slab", serif;
 }
 button {
-    width: 40%;
+    width: 30%;
     padding: 7px;
     background-color: rgb(126, 126, 194);
     border: solid rgb(255, 255, 255) 2px;
@@ -28,7 +28,6 @@ button {
     color: white;
     font-weight: bold;
     margin: 2%;
-    font-size: 3vh
 }
 button:hover {
     background-color: rgb(150, 150, 204);
