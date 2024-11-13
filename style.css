@@ -35,6 +35,9 @@ button:hover {
 p {
     font-size: 14pt;
 }
+span {
+    font-family: "Playwrite GB S", cursive;
+}
 
 /* Overhead */
 #head {
@@ -72,6 +75,11 @@ p {
 #about {
     background-color: rgb(27, 54, 78);
 }
+#pic {
+    display: inline-block;
+    border: white solid 2px;
+    border-radius: 2px;
+}
 
 #projects {
     background-color:rgb(163, 37, 151);
@@ -91,6 +99,8 @@ p {
     position: absolute;
     font-size: 20pt;
     left: 13%;
+    background-color: rgb(106, 12, 95);
+    border-radius: 4px;
 }
 #projnav:hover {
     cursor: pointer;
