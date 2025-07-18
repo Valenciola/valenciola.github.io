@@ -3,34 +3,26 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #f7a28b;
+    background-color: #152a24;
     color: white;
     text-align: center;
     font-family:"Nunito", sans-serif;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 div {
     padding: 5px;
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 6px;
-    border: white 2px solid;
+    border: white 6px solid;
 }
 h2 {
     font-family: "Roboto Slab", serif;
-}
-button {
-    width: 30%;
-    padding: 7px;
-    background-color: rgb(126, 126, 194);
-    border: solid rgb(255, 255, 255) 2px;
-    border-radius: 4px;
-    font-family: "Nunito", sans-serif;
-    color: white;
-    font-weight: bold;
-    margin: 2%;
-}
-button:hover {
-    background-color: rgb(150, 150, 204);
 }
 p {
     font-size: 14pt;
@@ -40,68 +32,13 @@ span {
 }
 
 /* Overhead */
-#head {
-    background-color: pink;
+#space {
+    background-color: #3e7c6b;
+    width: 90vw;
+    height: 90vh;
+    display: block;
+    padding: 1rem;
 }
 #title {
     font-family: "Playwrite GB S", cursive;
-}
-
-#topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 3px;
-}
-#topnav li {
-    display: inline;
-    padding: 8px;
-}
-#topnav li a {
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-}
-#topnav li a:hover {
-    background-color: rgb(255, 216, 125);
-    border-radius: 7px;
-}
-
-/* Classes */
-.navdot {
-    color: rgb(57, 6, 52);
-}
-
-/* Content */
-#about {
-    background-color: rgb(27, 54, 78);
-}
-#pic {
-    display: inline-block;
-    border: white solid 2px;
-    border-radius: 2px;
-}
-
-#projects {
-    background-color:rgb(163, 37, 151);
-}
-#project h2{
-    margin: 0;
-    display: inline-block;
-}
-#projsubtitle {
-    background-color: rgb(82, 151, 127);
-}
-
-#disclaimer {
-    background-color: rgb(54, 118, 129);
-}
-#projnav {
-    position: absolute;
-    font-size: 20pt;
-    left: 13%;
-    background-color: rgb(106, 12, 95);
-    border-radius: 4px;
-}
-#projnav:hover {
-    cursor: pointer;
 }
