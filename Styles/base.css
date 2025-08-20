@@ -13,6 +13,64 @@ body {
     display: flex;
     height: 100vh;
     position: relative;
+    
+    flex-direction: row;
+}
+
+#landing-nav {
+    position: absolute;
+
+    bottom: 2rem; /* or 0 if you want it flush */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+#landing-nav > div:first-child {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#landnavbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#landing-nav button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#landnavbottom > div:nth-child(2) {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#landheading {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#landdesc {
+    font-size: 0.62rem;
+    margin: 0.5rem 0 0;
+    height: 3em;
+    overflow: hidden;
 }
 
 .sectionl {

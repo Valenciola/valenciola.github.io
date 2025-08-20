@@ -18,7 +18,7 @@ creative.addEventListener("mouseenter", function(e) {
     title.textContent = "Creative";
     title.style.color = "#f28d8e"
 
-    desc.textContent = "Enter the creative: every story, poem, and song. Imagination is limitless, and this page is my canvas."
+    desc.textContent = "Enter my world of creativity: every story, poem, and song. Imagination is limitless, and this page is my gallery."
 });
 creative.addEventListener("mouseleave", NavDefault);
 
