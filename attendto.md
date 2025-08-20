@@ -1,4 +1,5 @@
 # Things to Attend to
+I don't mind being open about this
 
 ### Landing Page
 - Navbar should become response, size-wise
