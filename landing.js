@@ -7,9 +7,9 @@ let desc = document.getElementById("landdesc");
 
 function NavDefault() {
     title.textContent = "Valerie Fils-Aime";
-    title.style.color = "black"
+    title.style.color = "#961256"
 
-    desc.textContent = "Welcome to my website!";
+    desc.textContent = "Welcome to my website! To navigate through the different sections of my site, start by choosing a section!";
     return;
 }
 

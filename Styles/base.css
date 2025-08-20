@@ -48,11 +48,16 @@ body {
 #landing-nav button {
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
-    background-color: #222;
+    background-color: #781448;
     color: white;
     border: none;
     border-radius: 0.3rem;
     cursor: pointer;
+
+    transition: background-color 0.3s ease
+}
+#landing-nav button:hover {
+    background-color: #8c2c5d;
 }
 
 #landnavbottom > div:nth-child(2) {
@@ -62,8 +67,10 @@ body {
 }
 
 #landheading {
+    font-family: "Bitter", serif;
     font-size: 1.5rem;
     margin: 0;
+    color: #961256;
 }
 
 #landdesc {
@@ -71,6 +78,8 @@ body {
     margin: 0.5rem 0 0;
     height: 3em;
     overflow: hidden;
+
+    font-weight: bold;
 }
 
 .sectionl {
