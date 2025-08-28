@@ -1,3 +1,4 @@
+// Selector variables
 let creative = document.getElementById("tocreative");
 let business = document.getElementById("tobusiness");
 let tech = document.getElementById("totech");
@@ -23,6 +24,13 @@ function NavDefault() {
     FadeText(desc, "Welcome to my website! To navigate through the different sections of my site, start by choosing a section!");
 }
 
+function FadeNav() {
+    // Fade out the navigation square on the landing
+    let nav = document.getElementById("landing-nav");
+    nav.style.opacity = 0;
+}
+
+// Animation controls for the buttons in the landing nav
 creative.addEventListener("mouseenter", function(e) {
     e.preventDefault();
     FadeText(title, "Creative", "#f28d8e");
@@ -43,3 +51,5 @@ tech.addEventListener("mouseenter", function(e) {
     FadeText(desc, "See the logic behind this website, as well as my other projects. The computer becomes the canvas, and ambition is translated to code.");
 });
 tech.addEventListener("mouseleave", NavDefault);
+
+business.addEventListener("click", FadeNav)

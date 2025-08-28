@@ -20,7 +20,7 @@ body {
 #landing-nav {
     position: absolute;
 
-    bottom: 2rem; /* or 0 if you want it flush */
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
 
@@ -32,6 +32,10 @@ body {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     color: black;
+
+    transition: opacity 0.5s ease;
+    transition-delay: 0.2s;
+    opacity: 1;
 }
 
 #landing-nav > div:first-child {
@@ -67,7 +71,7 @@ body {
 }
 
 #landheading {
-    font-family: "Freehand", serif;
+    font-family: "Freehand", cursive;
     font-size: 1.5rem;
     margin: 0;
     color: #961256;
