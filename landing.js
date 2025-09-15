@@ -52,4 +52,4 @@ tech.addEventListener("mouseenter", function(e) {
 });
 tech.addEventListener("mouseleave", NavDefault);
 
-business.addEventListener("click", FadeNav)
+business.addEventListener("click", FadeNav) // Test for nav box removal
