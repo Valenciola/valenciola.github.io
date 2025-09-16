@@ -1,3 +1,7 @@
+/* 
+Landing.js - The file that handles all of the logic and transitions of the landing page
+*/
+
 // Selector variables
 let creative = document.getElementById("tocreative");
 let business = document.getElementById("tobusiness");
